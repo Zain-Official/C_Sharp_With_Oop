@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstraction\**" />
+    <Compile Remove="Chaining_Constructor\**" />
+    <Compile Remove="ConstructorOverLoading\**" />
+    <Compile Remove="Default_Constructor\**" />
+    <Compile Remove="Difference_between_Abstraction_Vs_Encapsulation\**" />
+    <Compile Remove="Encapsulation\**" />
+    <Compile Remove="FlowerClass\**" />
+    <Compile Remove="Inheritance\**" />
+    <Compile Remove="LearnProperties\**" />
+    <Compile Remove="PolyMorphism\**" />
+    <Compile Remove="Private_Constructor\**" />
+    <Compile Remove="Read_Only_Properties\**" />
+    <Compile Remove="Static_Constructor\**" />
+    <Compile Remove="With_Out_Property\**" />
+    <Compile Remove="Write_Only_Properties\**" />
+    <EmbeddedResource Remove="Abstraction\**" />
+    <EmbeddedResource Remove="Chaining_Constructor\**" />
+    <EmbeddedResource Remove="ConstructorOverLoading\**" />
+    <EmbeddedResource Remove="Default_Constructor\**" />
+    <EmbeddedResource Remove="Difference_between_Abstraction_Vs_Encapsulation\**" />
+    <EmbeddedResource Remove="Encapsulation\**" />
+    <EmbeddedResource Remove="FlowerClass\**" />
+    <EmbeddedResource Remove="Inheritance\**" />
+    <EmbeddedResource Remove="LearnProperties\**" />
+    <EmbeddedResource Remove="PolyMorphism\**" />
+    <EmbeddedResource Remove="Private_Constructor\**" />
+    <EmbeddedResource Remove="Read_Only_Properties\**" />
+    <EmbeddedResource Remove="Static_Constructor\**" />
+    <EmbeddedResource Remove="With_Out_Property\**" />
+    <EmbeddedResource Remove="Write_Only_Properties\**" />
+    <None Remove="Abstraction\**" />
+    <None Remove="Chaining_Constructor\**" />
+    <None Remove="ConstructorOverLoading\**" />
+    <None Remove="Default_Constructor\**" />
+    <None Remove="Difference_between_Abstraction_Vs_Encapsulation\**" />
+    <None Remove="Encapsulation\**" />
+    <None Remove="FlowerClass\**" />
+    <None Remove="Inheritance\**" />
+    <None Remove="LearnProperties\**" />
+    <None Remove="PolyMorphism\**" />
+    <None Remove="Private_Constructor\**" />
+    <None Remove="Read_Only_Properties\**" />
+    <None Remove="Static_Constructor\**" />
+    <None Remove="With_Out_Property\**" />
+    <None Remove="Write_Only_Properties\**" />
+  </ItemGroup>
+
+</Project>
